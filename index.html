@@ -151,19 +151,9 @@ header h1{
   pointer-events: none;
 }
 </style>
-  #loginBox {
-   position: relative;
-   z-index: 9999;
-}
+
 </head>
-<div id="lock">
-  <div class="lock-box">
-    <h2>💜 Sadece Sana Özel 💜</h2>
-    <input type="password" id="pass" placeholder="Şifre">
-    <br>
-    <button onclick="unlock()">Giriş</button>
-    <p id="error"></p>
-  </div>
+
 </div>
 
 <body>
@@ -203,8 +193,6 @@ header h1{
 </div>
 
 <script>
-/* 🔑 ŞİFREYİ BURADAN DEĞİŞTİR */
-const correctPassword = yamco;
 
 /* ❤️ KALBE TIKLANDIĞINDA ÇIKACAK YAZILAR
    🔧 BURAYA İSTEDİĞİN KADAR YAZI EKLE */
@@ -215,27 +203,20 @@ const loveMessages = [
   "Bu kalp sadece sana ait",
   "Seninle daha çok börek yiyelim balım"
 ];"Yanaklarını özlediym"
-  "Ne zaman buluşuyoruz sevgilimm ?"
+  "Ne zaman bulusuyoruz sevgilimm ?"
   "Hadi yine lego çiçek yapalımm"
   "Bugün lily,lila,lilo kimde ?
   "Yine pick filbert mı alıyoruzz"
   "Bereber yürüyoruz dimii"
-  "Aşkım bak biz"
-  "Aşkım ojelerin çok yakışmış"
+  "Askım bak biz"
+  "Askım ojelerin çok yakışmış"
   "Birtanem film çok güzeldi"
   "Nick ve judy biz dimii"
   "Hiç ayrılmayalım hayatım"
   "Yine mi brew deyiz güzelimm"
   "Aşkım gülmeeee"
   "Öpim öpim öpim"
-  "Hadi kağıtdan yılbaşı ağacı yapalımm"
-function unlock(){
-  if(pass.value === correctPassword){
-    lock.style.display = "none";
-  }else{
-    error.innerText = "Şifre yanlış 💔";
-  }
-}
+  "Hadi kağıtdan yılbası ağacı yapalımm"
 
 function showLove(){
   const random =
